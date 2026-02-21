@@ -1,5 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
   <groupId>com.capgemin.assese</groupId>
   <artifactId>Assessment-Date-16-02-2026</artifactId>
   <version>0.0.1-SNAPSHOT</version>
@@ -8,10 +9,20 @@
   <!--  dependency for the jdbc postgres connect  -->
    <dependencies><!-- Source: https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 <dependency>
+=======
+  <groupId>com.capgemini</groupId>
+  <artifactId>Assignment</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>	
+<!-- Source: https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+    <dependency>
+>>>>>>> 62f5611801ec779de031f750c8c6f343aa2e0ef0
     <groupId>org.postgresql</groupId>
     <artifactId>postgresql</artifactId>
     <version>42.6.0</version>
     <scope>compile</scope>
+<<<<<<< HEAD
 </dependency>
 
 
@@ -39,4 +50,33 @@
    </dependencies>
      
   
+=======
+   </dependency>
+   
+   <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.11.4</version>
+    <scope>test</scope>
+    
+    
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+    <scope>compile</scope>
+</dependency>
+
+   <dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.6.14.Final</version>
+    <scope>compile</scope>
+</dependency>
+ 
+  </dependencies>
+>>>>>>> 62f5611801ec779de031f750c8c6f343aa2e0ef0
 </project>
