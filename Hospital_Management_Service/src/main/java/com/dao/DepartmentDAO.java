@@ -8,7 +8,7 @@ import javax.persistence.EntityTransaction;
 
 import com.dao.JPAUtil;
 
-import jakarta.persistence.*;
+//import jakarta.persistence.*;
 
 public class DepartmentDAO {
 

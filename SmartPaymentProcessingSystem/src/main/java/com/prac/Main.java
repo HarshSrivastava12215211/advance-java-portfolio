@@ -20,7 +20,7 @@ public class Main {
 		 System.out.println("UPI1 Instance : " + payment1);
 		 System.out.println("UPI1 Instance : " + payment2);
 		 
-		// ioc.close();
+		 //ioc.close();
 	}
 
 }
